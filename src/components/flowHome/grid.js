@@ -13,7 +13,7 @@ export function FlowGrid(){
            
             {VideoList.map((item)=>{
                 return (
-                    <FlowCard videoId={item.id} title={item.title}/>
+                    <FlowCard key={item.id} videoId={item.id} title={item.title}/>
                 )
             })}
         </div>
