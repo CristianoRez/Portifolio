@@ -3,7 +3,7 @@ import { Box, Header, Image} from "grommet";
 export default function FlowHeader3() {
     const styles = {
         foto:{
-            height: "35px"
+            height: "55px"
             
         },
         header:{
